@@ -1,3 +1,6 @@
+https://www.youtube.com/watch?v=bkXe-eDGjPY&list=PL495mke12zYDHN9ONfcal1eQfo8VqmOgu&index=41
+
+
 Problem Statement - 
 Data Analysis
 Model Building
@@ -6,7 +9,31 @@ Deploy Application
 
 pip install virtualenv
 
-py -3.10 -m venv env
+py -3.11 -m venv env
+remove env  -  
+deactivate
+Remove-Item -Recurse -Force .\env
+
+
 env\Scripts\activate
 
 pip install -r requirements.txt
+
+
+
+
+
+git bash and Heroku
+$ source "C:\Users\hp\Documents\AI ML Final Projects\Laptop Price Predictor\Laptop-Price-Predictor\Web_Application\env\Scripts\activate"
+
+$ heroku login
+
+
+pip install gunicorn
+
+
+we can make requirements automatically by running  - pip freeze  > requirements.txt
+
+
+upload Herokufrom git command
+
